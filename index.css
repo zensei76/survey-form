@@ -13,6 +13,12 @@ h3{
     margin-bottom: 0px;
 }
 
+button{
+    background-color: #ccc;
+    height: 40px;
+    width: 80px;
+    border: 1px;
+
 .checked {
     color: #EEAC82;
   }
