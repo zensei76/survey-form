@@ -18,8 +18,9 @@ button{
     height: 40px;
     width: 80px;
     border: 1px;
+}
 
-.checked {
+.checked{
     color: #EEAC82;
   }
 
