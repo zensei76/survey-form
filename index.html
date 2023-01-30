@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <form>
+        <div class=" container">
+            <h3>Name<span class="star">*</span></h3>
+            <div style="display: inline-block;">
+                <span>
+                    <input type="box">
+                </span>
+                <span style="display: block;">First</span>
+
+            </div>
+            <div style="display: inline-block;">
+                <span>
+                    <input type="box">
+                </span>
+                <span style="display: block;">Last</span>
+
+            </div>
+        </div>
+        <div>
+            <h3>Email<span class="star">*</span></h3>
+
+            <input type="box" size="35">
+
+        </div>
+        <div>
+            <h3>Your Experience<span class="star">*</span></h3>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <p>Overall how would you rate your experience with us?</p>
+            <h3>How satisfied are you with<span class="star">*</span></h3>
+        </div>
+        <div>
+            <table>
+
+                <tr>
+                    <td></td>
+                    <td>very unsatisfied</td>
+                    <td>Unsatisfied</td>
+                    <td>Neutral</td>
+                    <td>Satisfied</td>
+                    <td>very satisfied</td>
+                </tr>
+
+                <tr style="background-color:#F1F1F1; ">
+                    <td>Purchase</td>
+                    <td><input type="radio" name="but1"></td>
+                    <td><input type="radio" name="but1"></td>
+                    <td><input type="radio" name="but1"></td>
+                    <td><input type="radio" name="but1"></td>
+                    <td><input type="radio" name="but1"></td>
+                </tr>
+
+                <tr>
+                    <td>service</td>
+                    <td><input type="radio" name="but2"></td>
+                    <td><input type="radio" name="but2"></td>
+                    <td><input type="radio" name="but2"></td>
+                    <td><input type="radio" name="but2"></td>
+                    <td><input type="radio" name="but2"></td>
+                </tr>
+                <tr style="background-color: #F1F1F1; ">
+                    <td>comapany Overall</td>
+                    <td><input type="radio" name="but3"></td>
+                    <td><input type="radio" name="but3"></td>
+                    <td><input type="radio" name="but3"></td>
+                    <td><input type="radio" name="but3"></td>
+                    <td><input type="radio" name="but3"></td>
+                </tr>
+            </table>
+
+        </div>
+        <h3>How likely are you to<span class="star">*</span></h3>
+
+        <div>
+            <table>
+                <tr ">
+                    <td></td>
+                    <td>very unsatisfied</td>
+                    <td>unsatisfied</td>
+                    <td>neutral</td>
+                    <td>satisfied</td>
+                    <td>very satisfied</td>
+                </tr>
+                <tr style=" background-color: #F1F1F1;">
+                    <td>buy form us again</td>
+                    <td><input type="radio" name="but1"></td>
+                    <td><input type="radio" name="but1"></td>
+                    <td><input type="radio" name="but1"></td>
+                    <td><input type="radio" name="but1"></td>
+                    <td><input type="radio" name="but1"></td>
+                </tr>
+                <tr>
+                    <td>Reccommed our <br> product to others</td>
+                    <td><input type="radio" name="but2"></td>
+                    <td><input type="radio" name="but2"></td>
+                    <td><input type="radio" name="but2"></td>
+                    <td><input type="radio" name="but2"></td>
+                    <td><input type="radio" name="but2"></td>
+                </tr>
+                <tr style="background-color:#F1F1F1;">
+                    <td>Reccommed our <br>company to others</td>
+                    <td><input type="radio" name="but3"></td>
+                    <td><input type="radio" name="but3"></td>
+                    <td><input type="radio" name="but3"></td>
+                    <td><input type="radio" name="but3"></td>
+                    <td><input type="radio" name="but3"></td>
+                </tr>
+            </table>
+            <div>
+                <h3>Additional comments or suggestions <span class="star">*</span></h3>
+                <textarea id="w3review" name="w3review" rows="6" cols="70"></textarea>
+            </div>
+            <button>Submit</button>
+    </form>
+</body>
+
+</html>

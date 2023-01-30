@@ -1,0 +1,22 @@
+
+
+td, th {
+      margin: 0px;
+    border: 0px solid #ccc;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+
+h3{
+    margin-bottom: 0px;
+}
+
+.checked {
+    color: #EEAC82;
+  }
+
+.star{
+      color:red;
+  }
